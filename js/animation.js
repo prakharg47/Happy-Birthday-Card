@@ -5,7 +5,7 @@
 import config from "./config.js";
 
 if (config.name) {
-  document.querySelector(".name").textContent = config.name;
+  document.querySelector(".name").textContent = "";
   if (config.nickname)
     document.querySelector(".nickname").textContent = config.nickname;
   else document.querySelector(".nickname").textContent = config.name;
