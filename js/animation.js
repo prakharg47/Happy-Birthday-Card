@@ -97,7 +97,7 @@ button.addEventListener("click", function () {
 
     light.play();
     transition(darkroom);
-    CTAtext.innerHTML = "";
+    CTAtext.innerHTML = "It's better than Google maps";
     setTimeout(function () {
       button.classList.add("door-out");
       button.classList.remove("switch");
