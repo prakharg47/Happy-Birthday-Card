@@ -31,7 +31,8 @@ const blackText = document.querySelectorAll(".bb-text"), // msgs in the dark roo
   giftText = document.querySelectorAll(".gift-text"), // msgs in the gift scene
   hallText = document.querySelectorAll(".hall-text"), // msgs in the hallway scene
   roomText = document.querySelectorAll(".room-text"), // msgs in empty room scene
-  CTAtext = document.querySelector(".btn-ref");
+  CTAtext = document.querySelector(".btn-ref"),
+  myVideo = document.querySelector("#myVideo");
 
 //Elements in the card page
 
@@ -117,6 +118,7 @@ button.addEventListener("click", function () {
       button.classList.add("door-in");
       button.classList.remove("door-out");
       room.style.display = "none";
+      myVideo.play()
       readMsg(hallText);
     }, 4000);
   } else if (button.classList.contains("door-in")) {
