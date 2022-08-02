@@ -144,7 +144,7 @@ button.addEventListener("click", function () {
         */
 
     haunt.pause();
-    blast.play();
+    // blast.play();
     giftroom.style.display = "none";
     transition(flash);
 
