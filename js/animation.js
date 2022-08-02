@@ -81,7 +81,7 @@ const transition = (currentScene) => {
     one by one, a button(bulb) appears and the user is asked to click the button to swith on the lights.
 */
 
-CTAtext.innerHTML = "Click the Light Bulb.";
+CTAtext.innerHTML = "Cast your spell with the wand";
 
 readMsg(blackText);
 
@@ -96,7 +96,7 @@ button.addEventListener("click", function () {
 
     light.play();
     transition(darkroom);
-    CTAtext.innerHTML = "Click the Door";
+    CTAtext.innerHTML = "";
     setTimeout(function () {
       button.classList.add("door-out");
       button.classList.remove("switch");
@@ -127,7 +127,7 @@ button.addEventListener("click", function () {
 
     door.play();
     transition(hallway);
-    CTAtext.innerHTML = "Click the Gift";
+    CTAtext.innerHTML = "Catch the Golden Snitch!";
     setTimeout(function () {
       button.classList.add("gift");
       button.classList.remove("door-in");
