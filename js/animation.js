@@ -113,7 +113,7 @@ button.addEventListener("click", function () {
     transition(room);
     setTimeout(function () {
       haunt.play();
-      haunt.loop = true;
+      haunt.loop = false;
       button.classList.add("door-in");
       button.classList.remove("door-out");
       room.style.display = "none";
