@@ -1,7 +1,7 @@
 export default {
-  name: "Friend", // actual name of the recipient (Mandatory)
+  name: "Payal", // actual name of the recipient (Mandatory)
 
-  nickname: "Buddy", // nickname(optional)
+  nickname: "Pyl", // nickname(optional)
 
   pic: "", // image url of recipients (Mandatory)
 
